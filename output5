@@ -1,0 +1,26 @@
+WEKA KNOWLEDGE FLOW
+===================
+
+Part 1: Association Rule Mining
+Algorithm: Apriori
+1. outlook=sunny ==> play=yes
+2. temperature=mild ==> play=yes
+
+Algorithm: FP-Growth
+1. outlook=sunny, play=yes
+2. temperature=mild, play=yes
+
+Part 2: J48 Cross-Validation
+Correctly Classified Instances: 12
+Accuracy: 85.7143%
+Incorrectly Classified Instances: 2
+
+Confusion Matrix:
+7  1
+1  5
+
+Part 3: ROC Curve Comparison
+J48 AUC: 0.875
+Random Forest AUC: 0.932
+
+Result: Knowledge Flow operations demonstrated.
